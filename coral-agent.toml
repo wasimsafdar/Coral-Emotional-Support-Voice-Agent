@@ -1,6 +1,6 @@
 [agent]
-name = "emotional-support-agent"
-version = "0.0.1"
+name = "coral-emotional-support-agent"
+version = "0.1.0"
 
 [options.OPENAI_API_KEY]
 type = "string"
