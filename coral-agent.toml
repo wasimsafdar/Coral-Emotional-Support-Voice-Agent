@@ -1,0 +1,30 @@
+[agent]
+name = "emotional-support-agent"
+version = "0.0.1"
+
+[options.OPENAI_API_KEY]
+type = "string"
+description = "API key for the model provider"
+
+[options.DEEPGRAM_API_KEY]
+type = "string"
+description = "DEEPGRAM API KEY for the service"
+
+[options.CARTESIA_API_KEY]
+type = "string"
+description = "CARTESIA_API_KEY API KEY for the service"
+
+[options.LIVEKIT_API_KEY]
+type = "string"
+description = "LIVEKIT_API_KEY API KEY for the service"
+
+[options.LIVEKIT_URL]
+type = "string"
+description = "LIVEKIT_URL API KEY for the service"
+
+[options.LIVEKIT_API_SECRET]
+type = "string"
+description = "LIVEKIT_API_SECRET API KEY for the service"
+
+[runtimes.executable]
+command = ["bash", "-c", "./run_agent.sh emotional_support_agent.py"]
