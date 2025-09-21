@@ -1,18 +1,17 @@
-# LiveKit Voice Interface Agent (STT-LLM-TTS Pipeline)
+# Coral Emotional Support Voice Agent (STT-LLM-TTS Pipeline)
 
-## [Voice Interface Agent](https://github.com/Coral-Protocol/Voice-Interface-Agent)
+## [Coral Emotional Support Voice Agent ](https://github.com/wasimsafdar/Coral-Emotional-Support-Voice-Agent)
 
-The Voice Interface Agent is an open-source AI assistant that provides real-time voice interaction using a complete STT-LLM-TTS pipeline, enabling natural conversations with AI systems.
+This is a real-time voice interface agent that uses an STT-LLM-TTS pipeline, enabling natural conversations with AI systems. This AI agent talks with a user and analyzes the user's voice. If the user is feeling sad or depressed, it directs them to an emotional support AI agent.
 
 ## Responsibility
-The Voice Interface Agent enables natural, real-time voice interaction using a full STT-LLM-TTS pipeline. It leverages LiveKit for streaming, Deepgram for speech-to-text, OpenAI for language processing, and Cartesia for text-to-speech synthesis.
+The emotional support AI agent then helps the user by suggesting various exercises and sharing jokes to lighten the mood. It leverages LiveKit for streaming, Deepgram for speech-to-text, OpenAI for language processing, and Cartesia for text-to-speech synthesis.
 
 ## Details
 - **Framework**: LiveKit Agents
 - **Tools used**: LiveKit, Deepgram STT, OpenAI LLM, Cartesia TTS, Silero VAD
 - **AI model**: GPT-4o-mini with Nova-3 STT and Sonic-2 TTS
-- **Date added**: June 2025
-- **License**: MIT
+- **Date added**:Sep 2025
 
 ## Use the Agent
 
@@ -21,11 +20,8 @@ The Voice Interface Agent enables natural, real-time voice interaction using a f
 <details>
 
 ```bash
-# In a new terminal clone the repository:
-git clone https://github.com/Coral-Protocol/Voice-Interface-Agent.git
-
-# Navigate to the project directory:
-cd Voice-Interface-Agent
+# In a new terminal clone the repository in any folder:
+git clone https://github.com/wasimsafdar/Coral-Emotional-Support-Voice-Agent
 
 # Install uv:
 pip install uv
@@ -114,7 +110,4 @@ The system will:
 5. **Turn Detection:** Multilingual model for conversation flow
 
 ## Creator Details
-- **Name**: Ahsen Tahir
-- **Affiliation**: Coral Protocol
-- **Contact**: [Discord](https://discord.com/invite/Xjm892dtt3)
-
+- **Name**: Wasim Safdar
